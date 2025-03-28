@@ -1,4 +1,4 @@
-# ZamowienieChoinki
+# OrderProcessingUI
 Prosta aplikacja symulująca interfejs użytkownika umożliwiający złożenie zamówienia na drzewko świąteczne.
 Aplikacja wykorzystuje JavaFX do tworzenia interfejsu graficznego oraz obsługę rodziny wyjątków w celu zarządzania błędami.
 
