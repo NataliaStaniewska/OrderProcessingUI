@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.zamowienie.Controller">
+   <children>
+      <Label alignment="TOP_CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="603.0" text="Zamówienie choinki" textAlignment="CENTER" VBox.vgrow="ALWAYS">
+         <font>
+            <Font name="Baskerville Old Face" size="24.0" />
+         </font>
+      </Label>
+      <Label text=" Typ choinki (wpisz:&quot;Świerk&quot;, &quot;Sosna&quot;, &quot;Jodła&quot;, &quot;Modrzew&quot;)" />
+      <TextField fx:id="treeType" />
+      <Label text="Data dostawy" />
+      <DatePicker fx:id="deliveryDate" />
+      <Label text="Ilość ( od 1 do 3)" />
+      <TextField fx:id="quantity" />
+      <Button mnemonicParsing="false" onAction="#processingOrder" text="Zamów" />
+      <Label fx:id="result" prefHeight="163.0" prefWidth="311.0" />
+   </children>
+</VBox>
